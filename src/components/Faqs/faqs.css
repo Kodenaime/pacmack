@@ -1,0 +1,39 @@
+.faqs {
+  background: var(--color-white);
+  border-radius: 1rem;
+  padding: 3rem 0; 
+  box-shadow: var(--shadow-1);
+}
+
+.faq-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 2rem 15rem;
+  
+}
+
+.faq {
+  background: var(--bg-color);
+  padding: 2rem;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  box-shadow: var(--shadow-2);
+}
+
+.faq .faq-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq .faq-main h4 {
+  color: var(--black-color);
+}
+
+.faq-btn {
+  background-color: transparent;
+  font-size: 1.5rem;
+  color: var(--yellow);
+  border:  1px solid transparent;
+}
