@@ -2,14 +2,12 @@
 
 
 :root {
-  --bg-color: #FBFBFB;
-  --primary: #3F51B5;
+  --bg-color: #EDEDED;
+  --back-color: rgba(230, 155, 31, 0.08);
+  --primary: #E69B1F;
   --primary-light: rgba(63, 81, 181, 0.1);
-  --yellow: #FFC107;
-  --yellow-light: rgba(255, 193, 7, 0.1);
-  --light-color: #757575;
-  --black-color: #212121;
-  --color-white: #FFFFFF;
+  --black-color: #000000;
+  --color-white: #fafafa;
   --text-color: #BDBDBD;
 
   --transition1: all 400ms ease-in-out;
@@ -48,7 +46,7 @@ body {
 }
 
 section {  
-  padding: 5rem 0;
+  padding: 4rem 0;
 }
 
 h1, h2, h3, h4, h5 {

@@ -2,7 +2,7 @@ import React from 'react'
 
 import Faq from './Faq'
 import './faqs.css'
-import SectionTop from './SectionTop'
+// import SectionTop from './SectionTop's\
 
 const responses = [
   { id: 1, 
@@ -27,10 +27,10 @@ const Faqs = () => {
   return (
     <section>
       <div className="container faqs">
-        <SectionTop 
+        {/* <SectionTop 
         head="Faq" 
         title="Frequently Asked Questions" 
-        />
+        /> */}
         <div className="faq-cards">
           {
             responses.map(({id, question, answer}) => {
