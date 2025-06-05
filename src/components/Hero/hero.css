@@ -1,0 +1,28 @@
+header {
+    position: relative;
+    background-image: url(../../assets/hero.png);
+    width: 100%; 
+}
+
+.image-container {
+  position: relative;
+  width: 100%;         /* or set a fixed width */
+  max-width: 600px;     /* optional: responsive limit */
+}
+
+.image-container img {
+  width: 100%;
+  display: block;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;               /* vertically center */
+  left: 50%;              /* horizontally center */
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent background */
+  padding: 10px 20px;
+  border-radius: 8px;
+}
