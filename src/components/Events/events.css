@@ -1,0 +1,22 @@
+.events-section {
+    background: var(--primary-light);
+}
+
+.events {
+    margin-top: 3rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.events .event {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width: 760px) {
+    .events {
+        flex-direction: column;
+    }
+}

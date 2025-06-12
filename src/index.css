@@ -5,7 +5,8 @@
   --bg-color: #EDEDED;
   --back-color: rgba(230, 155, 31, 0.08);
   --primary: #E69B1F;
-  --primary-light: rgba(63, 81, 181, 0.1);
+  --primary-light: rgba(230, 155, 31, 0.08);
+  --gray: rgba(63, 81, 181, 0.1);
   --black-color: #000000;
   --color-white: #fafafa;
   --text-color: #BDBDBD;
@@ -54,7 +55,7 @@ h1, h2, h3, h4, h5 {
 }
 
 h2 {
-  color: var(--black-color);
+  /* color: var(--black-color); */
   font-size: 1.6rem;
 }
 
@@ -78,6 +79,35 @@ img {
   background: var(--color-white);
   margin-top: 5rem;
 }
+/* top section with left aligned header */
+
+.section-top {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.section-top h4 {
+  color: var(--black-color);
+  padding: 0.3rem 0.8rem;
+  border-radius: 0.9rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.section-top h2 {
+  color: var(--black-color);
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.section-top p {
+  font-size: 1.1rem;
+  color: var(--black-color);
+}
+
+/* top section with center aligned header */
 
 .section-head {
   display: flex;
@@ -86,30 +116,72 @@ img {
   text-align: center;
 }
 
-.section-head h2 {
-  color: var(--black-color);
-  font-size: 2rem;
-  font-weight: bold;
-}
-
 .section-head h4 {
-  color: var(--yellow);
-  background: var(--yellow-light);
+  color: var(--black-color);
   padding: 0.3rem 0.8rem;
   border-radius: 0.9rem;
   text-transform: uppercase;
   font-weight: bold;
 }
 
-.section-head p {
-  font-size: 1.1rem;
-  color: var(--text-color);
+.section-head h2 {
+  color: var(--black-color);
+  font-size: 2rem;
+  font-weight: bold;
 }
 
-.section-title {
-  text-align: center;
+
+.section-head p {
+  font-size: 1.1rem;
+  color: var(--black-color);
 }
+
 
 .border {
   border-bottom: 1px solid var(--text-color);
 }
+
+.btn-primary {
+  display: flex;
+  align-items: center;
+  border-radius: 2rem;
+  gap: 1rem;
+  padding: 0.5rem 1rem; 
+  background: var(--primary);
+  color: var(--black-color);
+  width: fit-content;
+  cursor: pointer;
+}
+
+.btn-other {
+  /* display: flex;
+  gap: 1rem; */
+  padding: 0.5rem 1rem; 
+  border-radius: 2rem;
+  background: var(--primary);
+  color: var(--back-color);
+  width: fit-content;
+  cursor: pointer;
+}
+
+.btn-trans {
+  display: flex;
+  align-items: center;
+  border-radius: 2rem;
+  gap: 1rem;
+  padding: 0.5rem 1rem; 
+  background: transparent;
+  color: var(--color-white);
+  width: fit-content;
+  border: 1px solid var(--color-white);
+  cursor: pointer;
+}
+
+.text-black {
+  color: var(--black-color);
+}
+
+
+
+
+

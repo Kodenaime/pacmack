@@ -1,3 +1,7 @@
+.nav {
+    background: rgbA(0, 0, 0, 0.2);
+}
+
 nav {
     height: 5rem;
     display: flex;
@@ -12,4 +16,8 @@ nav .logo {
 nav .nav-items {
     display: flex;
     gap: 2rem;
+}
+
+.nav-item a {
+    color: var(--color-white);
 }

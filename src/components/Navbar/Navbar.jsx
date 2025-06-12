@@ -5,7 +5,7 @@ import logo from '../../assets/logo.png'
 
 const Navbar = () => {
   return (
-    <div>
+    <div className='nav'>
       <nav className='container'>
         <a className="logo" href='/'>
           <img src={logo} alt="Pacmack Logo" />
