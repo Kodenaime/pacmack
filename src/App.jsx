@@ -12,6 +12,7 @@ import Donate from './components/Donate/Donate'
 import Contact from './components/Contact/Contact'
 import Faqs from './components/Faqs/Faqs'
 import Footer from './components/Footer/Footer'
+import Donation from './components/Donate/Donation'
 
 const App = () => {
   return (
@@ -28,7 +29,7 @@ const App = () => {
       <Donate />
       <Contact />
       <Faqs />
-      <Donate />
+      <Donation />
       <Footer />
     </div>
   )

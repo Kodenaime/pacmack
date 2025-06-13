@@ -1,0 +1,13 @@
+.sponsors {
+    background: var(--color-white);
+    margin-top: 3rem;
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+.sponsors img {
+    width: 10rem;
+}
