@@ -1,8 +1,7 @@
 .faqs {
-  background: var(--color-white);
+  
   border-radius: 1rem;
   padding: 3rem 0; 
-  box-shadow: var(--shadow-1);
 }
 
 .faq-cards {
@@ -18,7 +17,7 @@
   padding: 2rem;
   border-radius: 0.8rem;
   cursor: pointer;
-  box-shadow: var(--shadow-2);
+  border: 1px solid var(--gray);
 }
 
 .faq .faq-main {

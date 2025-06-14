@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 
-
-import { FaMinus } from "react-icons/fa6";
-import { FaPlus } from "react-icons/fa6";
+import { FiPlusCircle } from "react-icons/fi";
+import { FiMinusCircle } from "react-icons/fi";
 
 const Faq = ({ question, answer }) => {
 
@@ -14,7 +13,7 @@ const Faq = ({ question, answer }) => {
             <h4>{ question }</h4>
             <button className='faq-btn'>
                 {
-                  answers ? <FaMinus /> : <FaPlus /> 
+                  answers ? <FiMinusCircle /> : <FiPlusCircle /> 
                 }
             </button>
         </div>

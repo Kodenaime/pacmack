@@ -10,7 +10,7 @@ const Timer = () => {
       const now = new Date();
       const targetDate = new Date(`${now.getFullYear()}-10-01T00:00:00`);
   
-      // If the date has passed this year, set for next year
+     
       if (now > targetDate) {
         targetDate.setFullYear(now.getFullYear() + 1);
       }
@@ -32,7 +32,7 @@ const Timer = () => {
         setTimeLeft(calculateTimeLeft());
       }, 1000);
   
-      return () => clearInterval(timer); // Cleanup on unmount
+      return () => clearInterval(timer); 
     }, []);
 
   return (

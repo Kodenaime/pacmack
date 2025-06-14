@@ -1,0 +1,32 @@
+.location-section {
+    background: var(--gray);
+}
+
+.location-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.location-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.location-btn a {
+    text-decoration: underline;
+    color: var(--black-color);
+}
+
+.location-images {
+    display: flex;
+    gap: 2rem;
+}
+
+.location-images .location-left {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}

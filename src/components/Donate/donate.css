@@ -1,52 +1,78 @@
 .donate {
-  background-image: url(../../assets/donate.jpg); /* ✅ Set your image path */
+background-image: url(../../assets/donate.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 3rem 2rem; /* Add some spacing for readability */
-  color: white; /* Assuming light image; adjust as needed */
+  padding: 3rem 2rem; 
+  color: white; 
   border-radius: 10px;
   text-align: center;
-  /* max-width: 800px; */
   margin: 0 auto;
 }
 
 
 
 .donation {
-  background-image: url(../../assets/donation.jpg); /* ✅ Set your image path */
+  background-image: url(../../assets/donation.jpg); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 3rem 2rem; /* Add some spacing for readability */
-  color: white; /* Assuming light image; adjust as needed */
+  padding: 3rem 2rem; 
+  color: white; 
   border-radius: 10px;
-  text-align: center;
-  /* max-width: 800px; */
+  text-align: center;  
   margin: 0 auto;
 }
 
+.overlay {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 2rem; 
+}
+
 .donate-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem; 
 }
 
 .donate-content h2 {
-    font-size: 2rem;
-    font-weight: bold;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .donate-content p {
-    font-size: 1.3rem;
-    font-weight: bold;
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 
 .donate-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
 }
+
+
+
+
+
+@media (max-width: 768px) {
+  .donation {
+    padding: 2rem 1rem;
+  }
+
+  .donate {
+    padding: 2rem 1rem;
+  }
+
+  .donate h2 {
+    font-size: 1.5rem;
+  }
+
+  .donate p {
+    font-size: 1rem;
+  }
+}
+

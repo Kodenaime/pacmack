@@ -17,8 +17,10 @@ const Hero = () => {
         <div className="hero-center">
           <h1>Pan African Conference</h1>
           <div className="for">For</div>
-          <h2>Missionary and Cross-cultural Kids</h2>
-          <p>Empowering the young and adult children of African Christian cross-cultural workers</p>
+          <div className="hero-content">
+            <h2>Missionary and Cross-cultural Kids</h2>
+            <p>Empowering the young and adult children of African Christian cross-cultural workers</p>
+          </div>
         </div>
         <div className="hero-btn">
           <div className="btn-primary">

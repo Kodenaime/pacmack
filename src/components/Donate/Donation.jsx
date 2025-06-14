@@ -9,7 +9,7 @@ const Donation = () => {
     <section>
       <div className="container donation-container">
         <div className="donation">
-          <div className="donate-content">
+          <div className="donate-content overlay">
             <h2>Support The Mission. Impact a Generation</h2>
             <p>Your gift helps us reach, equip, and empower African missionary and cross-cultural kids with hope, identity, and purpose.
                 Give today and be part of something eternal.

@@ -19,14 +19,14 @@ const Events = () => {
 
         <div className="events">
           <div className="event1">
-            <img src={worker} alt="" />
+            <img src={worker} alt="Event 1" className='event-img' />
           </div>
           <div className="event">
             <div className="event2">
-            <img src={work2} alt="" />
+            <img src={work2} alt="Event 1" className='event-img' />
           </div>
           <div className="event3">
-            <img src={work3} alt="" />
+            <img src={work3} alt="Event 1" className='event-img' />
           </div>
           </div>
         </div>

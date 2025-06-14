@@ -1,32 +1,110 @@
 .location-section {
-    background: var(--gray);
+  background: var(--gray);
 }
 
 .location-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+
+.location-up b {
+  font-size: 1.2rem;
+  color: var(--black-color);
+}
+
+.location-up p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.6;
 }
 
 .location-btn {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 500;
 }
 
 .location-btn a {
-    text-decoration: underline;
-    color: var(--black-color);
+  text-decoration: underline;
+  color: var(--black-color);
+  font-weight: 500;
 }
 
 .location-images {
-    display: flex;
-    gap: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.location-images .location-right {
+    flex: 1;
+    height: 100%;
+}
+
+
+
+.location-images .location-right img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
 }
 
 .location-images .location-left {
-    display: grid;
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.location-images .location-left img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+
+/* =============================
+   RESPONSIVENESS
+============================= */
+
+/* Tablets */
+@media screen and (max-width: 992px) {
+  .location-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .location-images {
+    flex-direction: column;
+  }
+
+  .location-left {
     grid-template-columns: 1fr 1fr;
-    gap: 1rem;
+  }
+}
+
+/* Mobile Devices */
+@media screen and (max-width: 600px) {
+  .location-up b {
+    font-size: 1.1rem;
+  }
+
+  .location-up p {
+    font-size: 0.95rem;
+  }
+
+  .location-btn {
+    justify-content: flex-start;
+    font-size: 0.95rem;
+  }
+
+  .location-left {
+    grid-template-columns: 1fr;
+  }
 }

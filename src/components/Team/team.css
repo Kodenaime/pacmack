@@ -1,37 +1,37 @@
 .teams {
-    margin-top: 3rem;
-    display: flex;
-    gap: 1rem;
-    overflow-x: scroll;
-    scroll-behavior: smooth;
+  margin-top: 3rem;
+  display: flex;
+  gap: 1rem;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
 }
 
 .teams::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 .teams .team {
-    background: var(--color-white);
-    border-radius: 0.5rem;
+  background: var(--color-white);
+  border-radius: 0.5rem;
 }
 
 .teams .team img {
-    border-radius: 0.5rem 0.5rem 0 0;
-    width: 280px;
+  border-radius: 0.5rem 0.5rem 0 0;
+  width: 280px;
 }
 
 
 
 .teams .team .team-content {
-    margin: 1rem;
+  margin: 1rem;
 }
 
 .teams .team .team-content h3 {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .teams .team .team-content p {
-    font-size: 00.9rem;
+  font-size: 00.9rem;
 }
 
 
